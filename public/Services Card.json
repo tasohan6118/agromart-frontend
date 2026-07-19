@@ -1,0 +1,38 @@
+[
+	{
+		"id":1,
+		"image": "https://i.ibb.co.com/3YphSYy2/hand-drawn-farmers-market-logo-23-2149329267.jpg",
+		"Title": "MarketPlace",
+		"Description": "AgriMarketplace is an online platform that connects farmers, suppliers, and buyers, making agricultural products easily accessible. It helps users find the best prices for seeds, fertilizers, vegetables, and other farm-related products in one place."
+	},
+	{
+		"id":2,
+		"image": "https://i.ibb.co.com/9H8GrSn6/real-time-data-icon-vector-set-white-background-stock-eps-338282581.webp",
+		"Title": "Real Time Market Analysis",
+		"Description": "Real-time market analysis for agro-products provides instant updates on prices, demand, and supply trends, helping farmers and buyers make informed decisions. It enables tracking of price fluctuations across markets, ensuring optimal buying and selling strategies."
+	},
+	{
+		"id":3,
+		"image": "https://i.ibb.co.com/xqJtfgLw/7133365.png",
+		"Title": "Wheather Forecasting",
+		"Description": "Weather forecasting uses scientific data and predictive models to estimate future atmospheric conditions, helping people plan daily activities and prepare for natural events.It plays a crucial role in agriculture, transportation, disaster management, and overall safety."
+	},
+	{
+		"id":4,
+		"image": "https://i.ibb.co.com/B2HY3RrR/pngtree-ai-style-message-logo-png-image-9161525.png",
+		"Title": "Ai Assistant",
+		"Description": "An AI assistant is an intelligent virtual helper that uses artificial intelligence to understand commands, answer questions, and perform tasks efficiently."
+	},
+	{
+		"id":5,
+		"image": "https://i.ibb.co.com/b5KLNd9X/a35b08538122ac62ab3cfed46a7e5e0f.png",
+		"Title": "Ai Crop Planning",
+		"Description": "AI crop planning leverages data and predictive analytics to optimize crop selection, planting schedules, and resource use for higher yield and sustainability."
+	},
+	{
+		"id":6,
+		"image":"https://i.ibb.co.com/1pnWTDv/images.png",
+		"Title":"Community Support",
+		"Description":"Agri community support on Facebook connects farmers, experts, and enthusiasts to share knowledge, solutions, and opportunities in agriculture."
+	}
+]
