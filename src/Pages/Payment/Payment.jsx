@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router';
 import { useCart } from '../../Context/CartContext/CartContext';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
 
 const mobileProviders = {
     bKash: { color: '#e2136e', soft: '#fff0f6', logo: 'bK', label: 'bKash' },
@@ -65,17 +65,35 @@ const Payment = () => {
 // });
 
 
-await axios.post(`${API_URL}/create-payment`, {
+// await axios.post(`${API_URL}/create-payment`, {
+//     orderTotal,
+//     customerInfo,
+//     orderItems
+// });
+
+
+
+
+//             // Redirect browser to SSLCommerz hosted payment page
+//             window.location.href = response.data.url;
+
+
+
+const response = await axios.post(`${API_URL}/create-payment`, {
     orderTotal,
     customerInfo,
     orderItems
 });
 
+if (response.data?.url) {
+    window.location.href = response.data.url;
+} else {
+    throw new Error("Payment URL was not returned by the server.");
+}
 
 
 
-            // Redirect browser to SSLCommerz hosted payment page
-            window.location.href = response.data.url;
+
         } catch (err) {
             setSslLoading(false);
             setError(err.response?.data?.message || 'Unable to initialize SSLCommerz payment. Please check if the server is running.');
