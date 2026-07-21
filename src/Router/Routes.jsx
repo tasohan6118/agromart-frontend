@@ -124,16 +124,31 @@ export const router = createBrowserRouter([
         path: 'payment',
         element: <PrivateRoute><Payment /></PrivateRoute>
       },
-      {
-        path: 'payment-success',
-        element: <PrivateRoute><PaymentSuccess /></PrivateRoute>
+
+// {
+//   path: 'payment/success',
+//   element: <PaymentSuccess />
+// },
+// {
+//   path: 'payment/fail',
+//   element: <PaymentFail />
+// },
+// {
+//   path: 'payment/cancel',
+//   element: <PaymentCancel />
+// }, 
+ 
+
+{
+        path: 'payment/success',
+        element: <PaymentSuccess />
       },
       {
-        path: 'payment-fail',
+        path: 'payment/fail',
         element: <PaymentFail />
       },
       {
-        path: 'payment-cancel',
+        path: 'payment/cancel',
         element: <PaymentCancel />
       },
       {
