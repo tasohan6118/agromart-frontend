@@ -27,7 +27,7 @@ const AboutUs = () => {
                <p className='font-medium text-xl mb-8 px-8 text-center'>{content.intro}</p>
 
                  <div className='flex mb-2'>
-                    <img className="w-[480px] h-[260px] ml-8 rounded-xl" src="/public/images/our-mission.webp" alt="" />
+                    <img className="w-[480px] h-[260px] ml-8 rounded-xl" src="/images/our-mission.webp" alt="" />
                       <div className='ml-16'>
                          <h1 className='mb-4 font-extrabold text-2xl text-green-700'>{content.goal}</h1>
                          <div className='space-y-3'>

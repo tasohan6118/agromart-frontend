@@ -32,7 +32,7 @@ const Banner = () => {
       >
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
-            src="/public/images/hero(sohan).jpg"
+            src="/images/hero(sohan).jpg"
             className="lg:max-w-4xl rounded-lg shadow-2xl h-[300px]"
             alt="AgroBanner"
           />

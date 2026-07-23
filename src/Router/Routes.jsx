@@ -33,6 +33,7 @@ import PaymentCancel from "../Pages/Payment/PaymentCancel";
 import PrivateRoute from "../Routes/PrivateRoute";
 import CropCalendar from "../Pages/CropCalendar/CropCalendar";
 import AIDiseaseDetection from "../Pages/AIDiseaseDetection/AIDiseaseDetection";
+import GovernmentServices from "../Pages/Services/GovernmentServices";
 import Schemes from "../Pages/Schemes";
 import SchemeDetail from "../Pages/SchemeDetail";
 import AdminSchemes from "../Pages/AdminSchemes";
@@ -125,20 +126,6 @@ export const router = createBrowserRouter([
         element: <PrivateRoute><Payment /></PrivateRoute>
       },
 
-// {
-//   path: 'payment/success',
-//   element: <PaymentSuccess />
-// },
-// {
-//   path: 'payment/fail',
-//   element: <PaymentFail />
-// },
-// {
-//   path: 'payment/cancel',
-//   element: <PaymentCancel />
-// }, 
- 
-
 {
         path: 'payment/success',
         element: <PaymentSuccess />
@@ -156,6 +143,10 @@ export const router = createBrowserRouter([
         element: <CropCalendar />
       },
       {
+        path: 'government-services',
+        element: <PrivateRoute><GovernmentServices /></PrivateRoute>
+      },
+      {
         path: 'schemes',
         element: <Schemes></Schemes>
       },
@@ -168,10 +159,7 @@ export const router = createBrowserRouter([
         element: <AdminSchemes></AdminSchemes>
       }
 
-
-
-
-    ]
+      ]
   },
   {
     path: '/',

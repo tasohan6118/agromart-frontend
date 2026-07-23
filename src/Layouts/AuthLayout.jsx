@@ -8,7 +8,7 @@ const AuthLayout = () => {
             <div className="p-3 flex items-center">
                 <img
                     className="w-16 h-12"
-                    src="/public/images/logo-remove.png"
+                    src="/images/logo-remove.png"
                     alt="AgroMart Logo"
                 />
                 <h1 className="text-xl font-bold">AgroMart</h1>
@@ -24,7 +24,7 @@ const AuthLayout = () => {
                 {/* Image Section */}
                 <div className="flex items-center justify-center">
                     <img
-                        src="/public/images/images (3).jpeg"
+                        src="/images/images (3).jpeg"
                         className="rounded-lg shadow-2xl h-64 w-80"
                         alt="Auth Illustration"
                     />

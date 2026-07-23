@@ -86,7 +86,7 @@ const Navbar = () => {
               {navItems}
             </ul>
           </div>
-          <img className="w-20 h-16" src="/public/images/Logo.jpg" alt="" />
+          <img className="w-20 h-16" src="/images/Logo.jpg" alt="" />
           <a className="btn btn-ghost text-xl -ml-4"><span className='text-green-400'>Agro</span>Mart</a>
         </div>
         <div className="navbar-center hidden lg:flex">
